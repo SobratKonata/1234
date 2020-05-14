@@ -1,0 +1,22 @@
+{
+  "name": "your-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravdas014/Your-Book.git"
+  },
+  "author": "Gaurav Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravdas014/Your-Book/issues"
+  },
+  "homepage": "https://github.com/gauravdas014/Your-Book#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
