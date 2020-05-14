@@ -34,3 +34,9 @@ body {
 .carousel-control-next-icon {
   filter: invert(1);
 }
+
+.img-card {
+  background-size: cover;
+  height: 300px;
+  width: auto;
+}
