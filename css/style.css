@@ -1,4 +1,14 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+
+  box-sizing: border-box;
+}
+
 .brand__name {
   font-family: "Dancing Script", cursive !important;
   font-size: 30px;
+}
+
+.nav-item {
+  font-size: 22px;
 }
