@@ -102,6 +102,7 @@ body {
   background-image: url(../img/book-and-cf.jpg);
   background-position: center;
   background-size: cover;
+  backface-visibility: hidden;
 }
 
 .div-parallax:nth-child(2) {
