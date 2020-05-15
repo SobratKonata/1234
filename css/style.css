@@ -188,11 +188,4 @@ body {
   .dropdown-menu {
     margin-left: 0px;
   }
-  .div-parallax:nth-child(1) {
-    background-image: url(../img/book-and-cf-min.jpg);
-    background-attachment: fixed;
-    /* background-position: center; */
-    background-size: cover;
-    overflow: hidden;
-  }
 }
