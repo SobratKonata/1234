@@ -44,4 +44,8 @@ body {
   width: auto;
 }
 
-/* parallax-effect css */
+@media (max-width: 500px) {
+  .dropdown-menu {
+    margin-left: 0px;
+  }
+}
