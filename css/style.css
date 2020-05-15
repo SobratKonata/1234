@@ -103,7 +103,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  max-height: 100vh;
+  overflow: hidden;
 }
 
 .div-parallax:nth-child(2) {
@@ -116,9 +116,9 @@ body {
   height: 400px;
   background-image: url(../img/book-with-coffee.jpg);
   background-attachment: fixed;
-  max-height: 100vh;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .div-parallax:nth-child(4) {
