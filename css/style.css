@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
-
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
@@ -11,6 +11,9 @@ body {
 
 .nav-item {
   font-size: 22px;
+}
+.dropdown-menu {
+  margin-left: 750px;
 }
 
 .carousel-img {
@@ -40,3 +43,5 @@ body {
   height: 300px;
   width: auto;
 }
+
+/* parallax-effect css */
