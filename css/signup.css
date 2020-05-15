@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: #2b2b52;
+}
+
+.brand__name {
+  font-family: "Dancing Script", cursive !important;
+  font-size: 30px;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+.dropdown-menu {
+  margin-left: 750px;
+}
+
+#particles-js {
+  opacity: 1;
+}
+
+.my-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.form-label {
+  font-size: 20px;
+}
