@@ -59,8 +59,9 @@ body {
   margin-bottom: 2rem;
 }
 
-img {
-  width: 100%;
+.aos-img {
+  width: 300px;
+  margin: 0px auto;
 }
 
 .card-books h3 {
@@ -93,8 +94,9 @@ img {
 }
 
 @media (max-width: 600px) {
-  .card {
+  .card-books {
     display: block;
+    padding-left: 60px;
   }
 }
 
