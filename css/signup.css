@@ -17,6 +17,8 @@ body {
 }
 #particles-js {
   opacity: 1;
+  position: relative;
+  height: 90vh;
 }
 .my-form {
   position: absolute;
