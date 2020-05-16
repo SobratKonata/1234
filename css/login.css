@@ -5,6 +5,7 @@ body {
   font-size: 62.5%;
   box-sizing: border-box;
   background-color: #2b2b52;
+  overflow: hidden;
 }
 .brand__name {
   font-family: "Dancing Script", cursive !important;
