@@ -153,7 +153,22 @@
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
     </div>
+    <div id="loader-outer">
+      <div id="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
   </body>
+  <script>
+    var loader = document.getElementById("loader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+  </script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
   <script>
