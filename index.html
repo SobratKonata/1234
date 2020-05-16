@@ -6,20 +6,20 @@
     <title>Home | Your Book</title>
     <!-- Google fonts -->
     <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Roboto:ital,wght@0,500;1,400&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Roboto:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
       rel="stylesheet"
     />
- 
+
     <!-- Bootstrap css -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
-  
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -401,11 +401,43 @@
   </body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-AOS.init({offset:400,delay:0,duration:1e3});
+    AOS.init({ offset: 400, delay: 0, duration: 1e3 });
   </script>
 
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script>
+    const images = document.querySelectorAll("[data-src]");
+
+    function preloadImage(img) {
+      const src = img.getAttribute("data-src");
+      if (!src) {
+        return;
+      }
+
+      img.src = src;
+    }
+
+    const imgOptions = {
+      threshold: 0,
+      rootMargin: "0px 0px 300px 0px",
+    };
+
+    const imageObserver = new IntersectionObserver((entries, imageObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        } else {
+          preloadImage(entry.target);
+          imgObserver.unObserve(entry.target);
+        }
+      });
+    }, imgOptions);
+
+    images.forEach((image) => {
+      imgObserver.observe(image);
+    });
+  </script>
 </html>
