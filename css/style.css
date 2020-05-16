@@ -141,6 +141,12 @@ body {
   background-color: #00f;
   color: #fff;
 }
+
+.start-pri-pol {
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 50px;
+}
 @media (max-width: 600px) {
   .card-books {
     display: block;
