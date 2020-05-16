@@ -234,6 +234,13 @@ body {
     font-size: 13px;
     margin-right: -20px;
   }
+
+  .footer-div-1-sub-2 h2 {
+    font-size: 20px;
+  }
+  .footer-div-1-sub-3 h2 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 500px) {
   .dropdown-menu {
