@@ -110,7 +110,7 @@ body {
 }
 .footer-div-1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-bottom: 1px solid #000;
   padding: 40px;
 }
@@ -141,6 +141,40 @@ body {
 .footer-signup-btn:link:hover {
   background-color: #00f;
   color: #fff;
+}
+
+.first-name-brand {
+  color: yellowgreen;
+}
+
+.footer-div-1-sub-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+  margin-left: -30px;
+}
+
+.footer-div-1-sub-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-div-1-sub-2 li {
+  padding: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer-div-1-sub-3 {
+  margin-right: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
 .start-pri-pol {
@@ -175,6 +209,30 @@ body {
     background-size: cover;
     height: 50vh;
     opacity: 0.5;
+  }
+  .footer-div-4 {
+    font-size: 10px;
+  }
+
+  .footer-div-1-sub-1 {
+    font-size: 13px;
+  }
+  .footer-div-2 {
+    padding: 20px;
+  }
+  .footer-div-2-sub-1 {
+    font-size: 15px;
+  }
+  .footer-div-2-sub-2 {
+    font-size: 13px;
+  }
+  .footer-div-1-sub-2 {
+    font-size: 10px;
+  }
+
+  .footer-div-1-sub-3 {
+    font-size: 13px;
+    margin-right: -20px;
   }
 }
 @media (max-width: 500px) {
