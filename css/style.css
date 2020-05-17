@@ -217,6 +217,17 @@ body {
   text-decoration: none;
 }
 
+.about-us-heading {
+  padding-top: 30px;
+  font-size: 45px;
+}
+
+.about-us {
+  padding: 0px 100px 100px 100px;
+  font-size: 40px;
+  background-color: green;
+}
+
 @media (max-width: 600px) {
   .card-books {
     display: block;
