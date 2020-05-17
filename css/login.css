@@ -83,6 +83,10 @@ body {
   background: #fff;
 }
 
+.contact-message {
+  min-height: 100px;
+}
+
 @keyframes loader {
   from {
     transform: scale(0, 0);

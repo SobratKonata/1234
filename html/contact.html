@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Login</title>
+    <title>Contact Us | YourBook</title>
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
@@ -71,7 +71,7 @@
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./contact.html">Contact Us</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">
@@ -129,12 +129,26 @@
       </nav>
     </header>
     <div id="particles-js">
-      <form class="my-form">
+      <form
+        class="my-form"
+        action="https://formspree.io/xeqreeqv"
+        method="POST"
+      >
+        <div class="form-group">
+          <label class="form-label">Name</label>
+          <input
+            name="name"
+            type="text"
+            class="form-control"
+            aria-describedby="textHelp"
+          />
+        </div>
         <div class="form-group">
           <label class="form-label" for="exampleInputEmail1"
             >Email address</label
           >
           <input
+            name="_replyto"
             type="email"
             class="form-control"
             id="exampleInputEmail1"
@@ -142,15 +156,12 @@
           />
         </div>
         <div class="form-group">
-          <label class="form-label" for="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
+          <label class="form-label">Message</label>
+          <textarea name="message" class="form-control contact-message">
+          </textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary">Login</button>
+        <button type="submit" class="btn btn-primary" value="Send">Send</button>
       </form>
     </div>
     <div id="loader">
